@@ -1,0 +1,16 @@
+server:
+  port: 8686
+
+arango:
+  db:
+    name: GIT_APP_DB
+    hostname: localhost
+    port: 8529
+    user:
+      id: manoj
+      key: manoj
+
+
+
+management.endpoints.web.exposure.include: '*'
+management.endpoint.health.show-details: always
